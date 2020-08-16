@@ -39,7 +39,6 @@ public class EmployeeResourceImpl implements EmployeeResource {
 	public ResponseEntity<Employee> createEmployee(@RequestBody Employee employee) {
 		 
 		  employeeService.saveEmployee(employee);
-		  System.out.println("Employee Saved Successfully");
 		return null;
 	}
 }
