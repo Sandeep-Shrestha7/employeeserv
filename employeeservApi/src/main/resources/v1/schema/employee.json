@@ -6,6 +6,11 @@
       "date_Of_Birth",
       "address"
     ],
+    
+    "annotations" : [
+    "@javax.persistence.Entity",
+    "@com.fasterxml.jackson.annotation.JsonIdentityInfo(generator=com.fasterxml.jackson.annotation.ObjectIdGenerators.IntSequenceGenerator.class, property="@id")"      
+],
     "properties": {
            "address": {
                "type": "object",
